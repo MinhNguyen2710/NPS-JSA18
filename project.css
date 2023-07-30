@@ -6,6 +6,16 @@
     list-style: none;
 }
 
+.post-page {
+    margin-top: 100px;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    font-family: Tahoma, 'Times New Roman', Times, serif !important;
+    text-transform: uppercase !important;
+}
+
+
+
 header {
     position: fixed;
     top: 0;
@@ -18,9 +28,29 @@ header {
     background-color: red;
 }
 
-.img-logo img{
+.entry_meta span {
+    font-size: 16px;
+    margin: 0 10px 0 0;
+    float: left;
+    color: #999;
+    text-align: center;
+
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.img-logo img {
     width: 200px;
-}   
+}
 
 .navigation-project {
     width: 400px;
@@ -37,7 +67,39 @@ header {
     justify-content: space-between;
 }
 
-.navigation-project ul li a {
+
+.navigation-project li a {
     color: white;
-transition: all 0.5s;
+
+}
+
+p {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 30px;
+    font-family: Tahoma, 'Times New Roman', Times, serif !important;
+    text-align: justify !important;
+    color: #000000 !important;
+}
+
+strong {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    font-family: 'FontAwesome';
+    text-align: justify;
+}
+
+.NH-Con {
+    margin-top: 10px;
+    width: 1024px;
+    margin: auto;
+    /* display: flex;
+    justify-items: center;
+    align-items: center; */
+}
+
+
+.post_content_in_container{
+    text-align: center;
+    width: 50px;
 }
